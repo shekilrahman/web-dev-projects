@@ -1,0 +1,49 @@
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('./Orbitron/Orbitron-VariableFont_wght.ttf');
+    }
+
+body{
+    background-color: black;
+    color: aliceblue;
+    margin: 0px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.timer{
+    font-size: large;
+    font-family:'digital-clock-font';
+    font-weight: bolder;
+    margin-bottom: 15px;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.timer input{
+    background: black;
+    border-width: 0px;
+    width: 40px;
+    height: 25px;
+    color: white;
+    scroll-behavior: unset;
+    font-size: larger;
+    padding: 5px;
+    font-family:'digital-clock-font';
+}
+
+button {
+    border-radius: 5px;
+    border: 2px solid white;
+    background: rgb(7, 112, 7);
+    color: aliceblue;
+    padding: 10px;
+    font-size: medium;
+    width: 80px;
+
+}
